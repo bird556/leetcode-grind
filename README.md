@@ -15,6 +15,7 @@ Welcome to my LeetCode solutions repository! This is where I track my progress t
 
 Problems are organized by category in the following folders:
 leetcode-grind/
+
 ├── Arrays & Hashing/
 
 ├── Two Pointers/
