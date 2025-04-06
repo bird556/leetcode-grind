@@ -68,7 +68,7 @@ Each solution file is named with the problem number and title (e.g., `1-two-sum.
 - **Medium**: Z
 - **Hard**: W
 
-[![Progress](https://img.shields.io/badge/Progress-X%20solved-blue)](https://github.com/your-username/leetcode-grind)
+[![Progress](https://img.shields.io/badge/Progress-X%20solved-blue)](https://github.com/bird556/leetcode-grind)
 
 ## 🧩 Problem Categories
 
@@ -88,7 +88,7 @@ Each solution file is named with the problem number and title (e.g., `1-two-sum.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/leetcode-grind.git
+   git clone https://github.com/bird556/leetcode-grind.git
 
 Navigate to a specific category:
 
