@@ -30,6 +30,7 @@ def mergeAlternately(word1: str, word2: str) -> str:
             merge_s += word2[j]
             j += 1
     return merge_s
-
+    #Time Complexity O(n)
+    #Space Complexity O(n)
 if __name__ == '__main__':
     unittest.main()
