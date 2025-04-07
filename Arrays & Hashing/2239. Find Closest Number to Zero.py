@@ -24,6 +24,8 @@ def findClosestNumber(nums: List[int]) -> int:
             closetNum = nums[i]
     
     return abs(closetNum) if closetNum < 0 and abs(closetNum) in nums else closetNum
+    #Time Complexity = O(n) 
+    #Space Complexity = O(1)
 
 if __name__ == '__main__':
     unittest.main()
