@@ -18,7 +18,12 @@ class TestFindClosestNumber(unittest.TestCase):
 
 
 def findClosestNumber(nums: List[int]) -> int:
-    pass
+    closetNum = abs(nums[0])
+    for i in range(1, len(nums)):
+        if abs(nums[i]) < abs(closetNum):
+            closetNum = nums[i]
+    
+    return abs(closetNum) if closetNum < 0 and abs(closetNum) in nums else closetNum
 
 if __name__ == '__main__':
     unittest.main()
