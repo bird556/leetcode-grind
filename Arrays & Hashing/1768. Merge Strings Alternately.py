@@ -11,21 +11,25 @@ class TestMergeStringAlt(unittest.TestCase):
         self.assertEqual(mergeAlternately(word1, word2), expected1)
         
         # Test case 2
-        word1 = "ab"
-        word2 = "pqrs"
-        expected1 = "apbqrs"
-        self.assertEqual(mergeAlternately(word1, word2), expected1)
+        self.assertEqual(mergeAlternately("ab", "pqrs"), "apbqrs")
         
         # Test case 3
-        word1 = "abcd"
-        word2 = "pq"
-        expected1 = "apbqcd"
-        self.assertEqual(mergeAlternately(word1, word2), expected1)
+        self.assertEqual(mergeAlternately("abcd", "pq"), "apbqcd")
         
 
 
-def mergeAlternately(self, word1: str, word2: str) -> str:
-    pass
+def mergeAlternately(word1: str, word2: str) -> str:
+    i, j = 0, 0
+    m, n = len(word1), len(word2)
+    merge_s = ''
+    while i < m or j < n:
+        if i < m:
+            merge_s += word1[i]
+            i += 1
+        if j < n:
+            merge_s += word2[j]
+            j += 1
+    return merge_s
 
 if __name__ == '__main__':
     unittest.main()
