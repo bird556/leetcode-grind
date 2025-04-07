@@ -14,8 +14,6 @@ class TestFindClosestNumber(unittest.TestCase):
         expected2 = 1
         self.assertEqual(findClosestNumber(nums2), expected2)
         
-        # You can add more test cases here as needed
-
 
 def findClosestNumber(nums: List[int]) -> int:
     closetNum = abs(nums[0])
