@@ -6,7 +6,7 @@ A collection of solved problems related to arrays and hashing techniques. Each s
 
 1. **1768. Merge Strings Alternately** ✂️  
    - **Description**: Merge two strings by adding letters in alternating order, starting with the first string.  
-   - **Solution**: [View Code](./1768_merge_strings_alternately.py) (or relevant file extension)  
+   - **Solution**: [View Code](https://github.com/bird556/leetcode-grind/blob/main/Arrays%20%26%20Hashing/1768.%20Merge%20Strings%20Alternately.py) (or relevant file extension)  
    - **Approach**: Two-pointer technique to traverse both strings simultaneously.
 
 2. **2239. Find Closest Number to Zero** ❄️  
