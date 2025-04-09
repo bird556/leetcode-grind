@@ -16,7 +16,7 @@ A collection of solved LeetCode problems focusing on arrays and hashing techniqu
 
 3. **3375. Minimum Operations to ...** ⚙️ *(Placeholder)*  
    - **Description**: *(Briefly describe the problem once solved)*  
-   - **Solution**: [View Code]([./3375_minimum_operations.py](https://github.com/bird556/leetcode-grind/blob/main/Arrays%20%26%20Hashing/3375.%20Minimum%20Operations%20to%20Make%20Array%20Values%20Equal%20to%20K.py)) 
+   - **Solution**: [View Code](https://github.com/bird556/leetcode-grind/blob/main/Arrays%20%26%20Hashing/3375.%20Minimum%20Operations%20to%20Make%20Array%20Values%20Equal%20to%20K.py) 
    - **Approach**: *(Explain approach here)*  
 
 ---
